@@ -1,0 +1,73 @@
+/* GLOBLA */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+body {
+    font-family: 'Opens Sans', sans-serif;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #fff;
+    border: 2px solid #111;
+    border-radius: 0.5rem;
+    color: #191c03;
+    padding: 0.5rem 1rem;
+    transition: 0.5s ease;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+.btn:active {
+    position: relative;
+    top: 0.1rem;
+}
+
+/* HEADER */
+header {
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 3rem;
+}
+
+header .logo {
+    width: 15rem;
+}
+
+header .nav-links {
+    display: flex;
+}
+
+header .link {
+    margin-left: 1rem;
+}
+
+header a {
+    color: #191c03;
+    padding: 0.5rem;
+}
+
+header a:hover {
+    border-bottom: 1px solid #191c03;
+}
