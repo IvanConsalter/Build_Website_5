@@ -124,3 +124,43 @@ header a:hover {
     padding: 1rem 2rem;
     margin-top: 3rem;
 }
+
+/* MEET / GRID */
+.meet .grid {
+    padding: 0;
+}
+
+.meet .grid .grid-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.meet .grid li {
+    height: 22rem;
+    padding: 1.2rem;
+    border-radius: 0.4rem;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+}
+
+.meet .grid .small-1 {
+    background-image: url(../img/itacare-01.jpg);
+    flex-basis: 40%;
+}
+
+.meet .grid .small-2 {
+    background-image: url(../img/itarace-04.jpg);
+    flex-basis: 40%;
+}
+
+.meet .grid .large-1 {
+    background-image: url(../img/itacare-02.jpg);
+    flex-basis: 60%;
+}
+
+.meet .grid .large-2 {
+    background-image: url(../img/itacare-03.jpg);
+    flex-basis: 60%;
+}
