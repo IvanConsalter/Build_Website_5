@@ -164,3 +164,56 @@ header a:hover {
     background-image: url(../img/itacare-03.jpg);
     flex-basis: 60%;
 }
+
+/* QUALITIES */
+.qualities {
+    background-color: #47945b;
+}
+
+.qualities .sub-title,
+.qualities p {
+    color: #fff;
+}
+
+.qualities .grid {
+    width: 100%;
+    display: flex;
+}
+
+.qualities .grid li {
+    padding: 0 1.8rem;
+}
+
+.qualities .grid li i {
+    color: #191c03;
+    font-size: 3.5rem;
+    margin-bottom: 1.8rem;
+}
+
+.qualities .grid h4 {
+    font-size: 1.5rem;
+    color: #191c03;
+    margin-bottom: 1.8rem;
+}
+
+/* NEWSLETTER */
+.newsletter {
+    margin-bottom: 4rem;
+}
+
+.newsletter form {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.newsletter input {
+    width: 100%;
+    height: 2rem;
+    padding: 0 0.5rem;
+    border-radius: 0.2rem;
+    margin-bottom: 1rem;
+}
